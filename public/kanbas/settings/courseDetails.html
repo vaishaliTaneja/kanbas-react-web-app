@@ -1,0 +1,221 @@
+<table width="100%">
+    <tbody>
+        <tr>
+            <td valign="top">
+                <ul>
+                    <li><a href="/kanbas/profile/index.html">Account</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="/kanbas/home.html">Courses</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Studio</a></li>
+                    <li><a href="#">Commons</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </td>
+            <td valign="top">
+                <ul>
+                    <li><a href="/kanbas/home.html">Home</a></li>
+                    <li><a href="#">Modules</a></li>
+                    <li><a href="#">Piazza</a></li>
+                    <li><a href="#">Zoom Meetings</a></li>
+                    <li><a href="/kanbas/assignments/index.html">Assignments</a></li>
+                    <li><a href="#">Quizzes</a></li>
+                    <li><a href="/kanbas/grades.html">Grades</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Panopto Video</a></li>
+                    <li><a href="#">Discussions</a></li>
+                    <li><a href="#">Announcements</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Files</a></li>
+                    <li><a href="#">Rubrics</a></li>
+                    <li><a href="#">Outcomes</a></li>
+                    <li><a href="#">Collaborations</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="/kanbas/settings/courseDetails.html">Settings</a></li>
+                </ul>
+            </td>
+            <td>
+                <a href="course-details.html">
+                    <button type="button">Course Details</button>
+                </a>
+                <a href="#">
+                    <button type="button">Sections</button>
+                </a>
+                <a href="navigation.html">
+                    <button type="button">Navigation</button>
+                </a>
+                <a href="#">
+                    <button type="button">Apps</button>
+                </a>
+                <a href="#">
+                    <button type="button">Feature Options</button>
+                </a>
+                <a href="#">
+                    <button type="button">Integrations</button>
+                </a>
+
+                <hr>
+
+                <p>Course Details</p>
+
+
+                <label>Image:</label>
+                <button type="button">Choose Image</button><br />
+
+                <p><label>Name:</label>
+                    CS4550 12631 Web Development SEC 01 Fall 2023 [BOS-1-TR]</p>
+
+                <p><label>Course Code:</label> CS4550.12631.202410</p>
+
+                <p><label>Blueprint Course:</label> No</p>
+
+                <label>Course Template:</label>
+                <input type="checkbox" value="Enable course as a Course Template" name="check-course-template"
+                    id="chkbox-enable-course" />
+
+                <label for="chkbox-enable-course">Enable course as a Course Template</label> <br />
+
+                <p>
+                    <label for="time-zone">Time Zone:</label>
+                    <select id="time-zone">
+                        <option selected value="EST">
+                            Eastern Time(US & Canada) (-05:00/-04:00)</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>SIS ID:</label>
+                    CS4550.12631.202410
+                </p>
+
+                <p>
+                    <label>Subaccount:</label>
+                    <a href="#">CS Undergrad</a>
+                </p>
+
+                <p>
+                    <label>Term:</label>
+                    202410_1 Fall 2023 Semester Full Term
+                </p>
+
+                <p>
+                    <label for="participation">Participation:</label>
+                    <select id="participation">
+                        <option selected value="TERM">
+                            Term</option>
+                    </select>
+                <h5>Course participation is limited to term start and end dates.</h5>
+
+                <label for="start-date">
+                    Start
+                </label><br />
+                <input type="date" id="start-date" /><br />
+
+                <label for="end-date">
+                    End
+                </label><br />
+                <input type="date" id="end-date" /><br />
+                </p>
+
+
+                <input type="checkbox" id="chkbox-start-date" />
+                <label for="chkbox-start-date">Restrict students from viewing course before term start
+                    date</label> <br />
+                <input type="checkbox" id="chkbox-end-date" />
+                <label for="chkbox-end-date">Restrict students from viewing course after term end date</label>
+                <br />
+
+                <div style="margin-top: 20px;">
+                    <label>Default due time:</label>
+                    <select id="select-due-time">
+                        <option selected value="DEFAULT">
+                            Account default (11:59pm)</option>
+                    </select>
+                <p>This influences the user interface for setting due dates. It does not chage the time due for any
+                    existing assignmnets.</p>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <label>Language:</label>
+                    <select id="select-lang">
+                        <option selected value="NOTSET">
+                            Not set (user-configurable, defaults to English (Unit</option>
+                    </select>
+                    <p>This will override any user/system language preferences. This is only recommended for foreign
+                        language courses</p>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <label>File Storage:</label>
+                    10000 megabytes
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <label>Large Course:</label>
+                    <input type="checkbox" id="large-course" />
+                    <label for="large-course">Launch Speed Grader Filtered by Student Group</label> <br />
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <label>Grading Scheme:</label>
+                    <input type="checkbox" id="grading-scheme" />
+                    <label for="grading-scheme">Enable course grading scheme</label> <br />
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <label for="license">License:</label>
+                    <select id="license">
+                        <option selected value="PRIVATE">
+                            Private (Copyrighted) </option>
+                    </select>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <label>File Copyright:</label>
+                    <input type="checkbox" id="chkbox-file-copyright" />
+                    <label for="chkbox-file-copyright">Copyright and license information must be provided for </label>
+                    <br />
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <label>Visibility:</label>
+                    If you need to make your course public please contact your administrator/support. <br />
+                    <select id="select-visibility">
+                        <option selected value="COURSE">
+                            Course </option>
+                    </select> <br />
+                    <input type="checkbox" id="chkbox-visibility" />
+                    <label for="chkbox-visibility">Include this course in the public course index</label> <br />
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <label>Format:</label>
+                    <select id="select-format">
+                        <option selected value="ONCAMPUS">
+                            On-Campus </option>
+                    </select>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <label>Mastery Paths:</label>
+                    <input type="checkbox" id="chkbox-mastery-paths" />
+                    <label for="chkbox-mastery-paths">Enable individual learning for students based on
+                        assessment</label> <br />
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <label>Description:</label>
+                    <textarea cols="30" rows="5"></textarea>
+                </div>
+
+                <a href="#">more options</a><br />
+
+                <div style="margin-top: 20px;">
+                    <button type="button">Update Course Details</button>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

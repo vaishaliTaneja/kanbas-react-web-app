@@ -1,0 +1,158 @@
+<table width="100%">
+    <tbody>
+        <tr>
+            <td valign="top">
+                <ul>
+                    <li><a href="/kanbas/profile/index.html">Account</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="/kanbas/home.html">Courses</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Studio</a></li>
+                    <li><a href="#">Commons</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </td>
+            <td valign="top"">
+              <ul>
+                <li><a href="/kanbas/home.html">Home</a></li>
+                <li><a href="#">Modules</a></li>
+                <li><a href="#">Piazza</a></li>
+                <li><a href="#">Zoom Meetings</a></li>
+                <li><a href="/kanbas/assignments/index.html">Assignments</a></li>
+                <li><a href="#">Quizzes</a></li>
+                <li><a href="#">Grades</a></li>
+                <li><a href="/kanbas/grades.html">People</a></li>
+                <li><a href="#">Panopto Video</a></li>
+                <li><a href="#">Discussions</a></li>
+                <li><a href="#">Announcements</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Files</a></li>
+                <li><a href="#">Rubrics</a></li>
+                <li><a href="#">Outcomes</a></li>
+                <li><a href="#">Collaborations</a></li>
+                <li><a href="#">Syllabus</a></li>
+                <li><a href="/kanbas/settings/courseDetails.html">Settings</a></li>
+                </ul>
+            </td>
+            <td valign="top">
+                <select>
+                    <option value="speed_grader">Speed Grader</option>
+                    <option value="delete">Delete</option>
+                </select>
+                <hr />
+                <form action="">
+                    <div>
+                        <h3>Assignment Name</h3>
+                        <input type="text" id="name" value="Assignment 1 - Env + HTML" />
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <textarea name="description" id="" cols="40"
+                            rows="5"> This is the assignment description</textarea>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="Points">Points</label><br />
+                        <input type="number" id="points" value="100" />
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="group">Assignment Group</label><br />
+                        <select name="" id="group">
+                            <option value="assignments">Assignments</option>
+                            <option value="quizzes">Quizzes</option>
+                            <option value="exams">Exams</option>
+                            <option value="projects">Projects</option>
+                        </select>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="display">Display Grade as</label><br />
+                        <select name="" id="display">
+                            <option value="points">Points</option>
+                            <option value="percentage">Percentage</option>
+                            <option value="complete_incomplete">Complete/Incomplete</option>
+                            <option value="letter_grade">Letter Grade</option>
+                        </select>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="submission">Submission Type</label><br />
+                        <select name="" id="submission">
+                            <option value="online">Online</option>
+                            <option value="on_paper">On Paper</option>
+                            <option value="none">None</option>
+                        </select>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label> Online Entry Options</label><br />
+                        <div>
+                            <input type="checkbox" id="textEntry" />
+                            <label for="textEntry">Text Entry</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="websiteURL" />
+                            <label for="websiteURL">Website URL</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="media" />
+                            <label for="media">Media Recordings</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="annotations" />
+                            <label for="annotations">Student Annotation</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="fileUpload" />
+                            <label for="fileUpload">File Uploads</label>
+                        </div>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="attempts">Submission Attempts</label><br />
+                        <select name="" id="attempts">
+                            <option value="unlimited">Unlimited</option>
+                        </select>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="review">Plagurism Review</label><br />
+                        <select name="" id="review">
+                            <option value="none">None</option>
+                        </select>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label>Group Assignment</label><br />
+                        <div class="checkbox">
+                            <input type="checkbox" id="group" />
+                            <label for="group">This is a group assignment</label>
+                        </div>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label>Peer Reviews</label><br />
+                        <div class="checkbox">
+                            <input type="checkbox" id="peerreview" />
+                            <label for="peerreview">Require peer reviews</label>
+                        </div>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label>Assign</label><br />
+                        <label for="assigned">Assign To</label><br />
+                        <input type="text" id="assigned" value="everyone" />
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="due">Due</label><br />
+                        <input type="date" id="due" value="2000-01-21" />
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="available">Available From</label><br />
+                        <input type="date" id="available" value="2000-01-21" />
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="until">Until</label><br />
+                        <input type="date" id="until" value="2000-01-21" />
+                    </div>
+                </form>
+                <div style="margin-top: 20px;">
+                    <button onclick="window.location.href='./index.html'">Cancel</button>
+                    <button onclick="window.location.href='./index.html'">Save</button>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
